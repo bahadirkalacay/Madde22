@@ -1,0 +1,22 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.movies{
+  margin-top: 50px;
+  width: 521px;
+  height: 370px;
+}
+
+@media screen and  (max-width: 780px){
+
+  .movies{
+    margin: auto;
+    width: 97%;
+    margin-top: 60px;
+    
+  }
+
+}

@@ -1,0 +1,45 @@
+.search {
+  width: 521px;
+  margin-left: 700px;
+  margin-top: 200px;
+  height: auto;
+
+}
+.form {
+  width: 521px;
+  height: 40px;
+}
+
+.btn {
+  width: 84px;
+  height: 40px;
+  float: right;
+  margin-top: 5px;
+}
+.btn--search {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  color: white;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.btn--clear {
+  color: #95CD41;
+  background-color: white;
+  border-radius: 50px 50px 50px 50px;
+  margin-right: 5px;
+}
+
+@media screen and  (max-width: 780px){
+
+  .search,.form{
+    margin: auto;
+    width: 97%;
+    
+  }
+
+  .btn{
+    width: 15%;
+    margin-top: 10px;
+  }
+
+}
